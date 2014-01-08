@@ -1,17 +1,17 @@
-my_name = 'Zed A. Shaw'
-my_age = 35 # not a lie
-my_height = 74 #inches
-my_weight = 180 # lbs
-my_eyes = 'Blue'
-my_teeth = 'White'
-my_hair = 'Brown'
+name = 'Mihai Liviu Cojocar'
+age = 32 # not a lie
+height = 173 # cm
+weight = 83 # kg
+eyes = 'Brown'
+teeth = 'White'
+hair = 'Brown'
 
-puts "Let' talk about %s." % my_name
-puts "He's %d inches tall." % my_height
-puts "He's %d pounds heavy." % my_weight
+puts "Let' talk about %s." % name
+puts "He's %d cm tall." % height
+puts "He's %d kilograms heavy." % weight
 puts "Actualy that's not toot heavy."
-puts "He's got %s eyes and %s hair." % [my_eyes, my_hair]
-puts "His teeth are usualy %s depending on the cofee." % my_teeth 
+puts "He's got %s eyes and %s hair." % [eyes, hair]
+puts "His teeth are usualy %s depending on the cofee." % teeth 
 
 #thi line is tricky, try to get it exactly right
-puts "If I add %d, %d, and %d I get %d." % [my_age, my_height, my_weight, my_age + my_height + my_weight]
+puts "If I add %d, %d, and %d I get %d." % [age, height, weight, age + height + weight]
